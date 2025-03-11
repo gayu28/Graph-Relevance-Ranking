@@ -17,4 +17,5 @@ Introduces adaptive query decomposition, where complex user queries are broken i
 
 Uses Hybrid Dense-Sparse Reranking (T5-Ranking + BM25 Hybrid) to blend semantic and lexical retrieval signals.
 Query Reformulation via LLMs (GPT-4, Mistral) optimizes retrieval for ambiguous or underspecified queries, improving search explainability and interpretability.
-This approach achieves 30% MRR improvement, significant latency reduction (20ms speed-up over baseline BERT rankers), and robust handling of cold-start queries. Its applications extend to e-commerce search (Amazon, eBay), knowledge retrieval (ArXiv, PubMed), and personalized AI search agents (Perplexity, ChatGPT RAG-based Search).
+
+Results show 30% MRR improvement, significant latency reduction (20ms speed-up over baseline BERT rankers), and robust handling of cold-start queries. Its applications extend to e-commerce search (Amazon, eBay), knowledge retrieval (ArXiv, PubMed), and personalized AI search agents (Perplexity, ChatGPT RAG-based Search).
